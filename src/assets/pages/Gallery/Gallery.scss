@@ -1,24 +1,27 @@
 main {
-    background-image: url(https://i.pinimg.com/originals/53/b0/e4/53b0e4f6810cba5eca8402ecb2c3d787.png);
+    background-image: url(https://wallpaperaccess.com/full/3551966.jpg);
+    // background-image: url(https://www.freepnglogos.com/uploads/rick-and-morty/rick-and-morty-background-rick-morty-and-man-sky-mashup-wallpaper-taken-from-4.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
-    .search-bar{
+    .search-bar {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 5px;
-        
-        
 
-        input{
-            height: 5vh;
+
+
+        input {
+            height: 4vh;
             width: 25vh;
             margin: 2px;
             font-size: larger;
         }
-        button{
-            height: 5.5vh;
+
+        button {
+            height: 4.5vh;
             width: 6vh;
             margin: 2px;
             font-size: 15px;
@@ -44,16 +47,20 @@ main {
         text-align: center;
         margin: 10px;
         padding-bottom: 5px;
-        width: 100%;
+        width: 30vh;
+        height: 36vh;
         border-radius: 25px;
         border: 5px solid black;
-        background-image: url("https://media.tenor.com/exnzxw_A81gAAAAC/omfoo.gif");
-        background-size: cover;
+        // background-image: url("https://media.tenor.com/exnzxw_A81gAAAAC/omfoo.gif");
+        background-image: url("https://w0.peakpx.com/wallpaper/244/435/HD-wallpaper-portal-morty-rick.jpg");
         background-repeat: no-repeat;
+        background-size: cover;
+        
+       
 
         h3 {
-            color: white;
-            text-decoration: none;
+            color: black;
+            
         }
 
         img {
@@ -63,7 +70,8 @@ main {
             border: 5px;
         }
 
-        p {
+        h4 {
+            color: black;
             text-decoration: none;
         }
 
@@ -93,6 +101,7 @@ main {
 
 
     }
+
     h2 {
         color: white;
         border: 4px solid black;
@@ -101,6 +110,5 @@ main {
         height: 80%;
 
     }
-    
+
 }
- 

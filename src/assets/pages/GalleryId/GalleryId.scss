@@ -4,14 +4,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-image: url(https://i.pinimg.com/originals/53/b0/e4/53b0e4f6810cba5eca8402ecb2c3d787.png);
+    background-image: url(https://wallpaperaccess.com/full/3551966.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
 
     .personaje {
-        height: 65vh;
+        height: 70vh;
         width: 50vh;
         margin-top: 50px;
         border-radius: 25px;
@@ -19,42 +19,49 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-image: url("https://media.tenor.com/exnzxw_A81gAAAAC/omfoo.gif");
+        background-image: url("https://doitbeforeme.com/wp-content/uploads/2023/01/lockscreen-rick-and-morty-wallpaper.webp");
         background-size: cover;
         background-repeat: no-repeat;
 
         img {
-            width: 85%;
-            height: 100%;
+            width: 30vh;
+            height: 30vh;
             border-radius: 25px;
             border: 5px;
         }
 
-        h1 {
-            color: white;
-            font-size: x-large;
-            padding-bottom: 10px;
-            padding-top: 10px;
-        }
-        p{
+
+        .info {
+            text-align: center;
             padding: 5px;
             font-size: large;
             font-weight: bold;
-        }
+            margin-top: 23vh;
 
+            h1 {
+                color: white;
+                font-size: x-large;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+
+            p {
+                color: white;
+            }
+        }
     }
 
     button {
         width: 200px;
         height: 50px;
         font-size: larger;
-        background-color: purple;
+        background-color: #2F0023;
         border-radius: 25px;
-        
 
-        h2{
+
+        h2 {
             text-decoration: none;
-            color: black;
+            color: white;
         }
     }
 }

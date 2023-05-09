@@ -73,8 +73,8 @@ const Gallery = () => {
                 <figure>
                   <h3>{character.name}</h3>
                   <img src={character.image} alt={character.image} />
-                  <p>Origen: {character.origin.name}</p>
-                  <p>Location: {character.location.name}</p>
+                  <h4>Origen: {character.origin.name}</h4>
+                  <h4>Location: {character.location.name}</h4>
                 </figure>
               </div>
             </Link>

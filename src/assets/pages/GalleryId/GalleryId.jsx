@@ -24,12 +24,15 @@ const GalleryId = () => {
             {character ? (
                 <>
                     <div className='personaje'>
-                        <h1>{character.name}</h1>
                         <img src={character.image} alt={character.actor} />
-                        <p>{character.gender}</p>
-                        <p>{character.species}</p>
-                        <p>{character.status}</p>
-                        <p>{character.created}</p>
+                        <div className='info'>
+                        <h1>{character.name}</h1>
+                            <p>{character.gender}</p>
+                            <p>{character.species}</p>
+                            <p>{character.status}</p>
+                            <p>{character.created}</p>
+                        </div>
+
 
                     </div>
                     <button><Link to="/gallery"><h2>Volver</h2></Link></button>
